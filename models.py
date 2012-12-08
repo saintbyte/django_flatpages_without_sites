@@ -17,8 +17,8 @@ class FlatPage(models.Model):
 
     class Meta:
         db_table = 'django_flatpage'
-        verbose_name = _('flat page')
-        verbose_name_plural = _('flat pages')
+        verbose_name = 'flat page'
+        verbose_name_plural = 'flat pages'
         ordering = ('url',)
 
     def __str__(self):
